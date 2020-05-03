@@ -93,7 +93,7 @@ def checkout(cart, coupons)
   
   #calc of total cart with discounts
   i = 0
-  total = 0.to_f
+  total = 0
   while i < new_cart.length
   
   i += 1
