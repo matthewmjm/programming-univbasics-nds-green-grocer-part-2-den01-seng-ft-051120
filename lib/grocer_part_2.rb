@@ -104,6 +104,7 @@ def checkout(cart, coupons)
     total += (total * -0.9)
     binding.pry
     else
+      total = total
   end  
   return total
 end
