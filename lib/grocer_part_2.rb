@@ -86,6 +86,22 @@ end
 
 
 def checkout(cart, coupons)
+  new_cart = consolidate_cart(cart)
+
+
+
+
+
+ 
+ 
+
+
+end
+
+
+
+
+#def checkout(cart, coupons)
   # Consult README for inputs and outputs
   #
   # This method should call
@@ -95,4 +111,4 @@ def checkout(cart, coupons)
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-end
+#end
