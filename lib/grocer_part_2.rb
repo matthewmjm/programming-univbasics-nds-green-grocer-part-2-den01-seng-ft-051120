@@ -83,6 +83,8 @@ def apply_clearance(cart)
   return cart
 end
 
+
+
 def checkout(cart, coupons)
   # Consult README for inputs and outputs
   #
