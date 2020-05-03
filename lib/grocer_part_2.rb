@@ -102,6 +102,7 @@ def checkout(cart, coupons)
   # check for 10% discount
   if total > 100
     total += (total * -0.9)
+    binding.pry
     else
   end  
   return total
