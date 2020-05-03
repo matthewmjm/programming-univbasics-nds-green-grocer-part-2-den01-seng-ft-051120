@@ -6,15 +6,15 @@ def apply_coupons(cart, coupons)
   apply_coup_array = []
   item_cart = []
   with_coup = {}
-  item_cart = cart
+  item_cart = consolidate_cart(cart)
   inx = 0
   inx3 = 0
   
   #check for no coupons
-  if coupons == [] 
+  #if coupons == [] 
     
-  else
-  end   
+  #else
+  #end   
   
   #outer loop (goes through the coupons)
   coupons.each do |coup_item|
