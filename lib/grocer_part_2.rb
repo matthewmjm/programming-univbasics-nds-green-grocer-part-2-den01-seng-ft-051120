@@ -8,6 +8,7 @@ def apply_coupons(cart, coupons)
   with_coup = {}
   item_cart = cart
   #item_cart = consolidate_cart(cart)
+  i = 0
   inx = 0
   inx3 = 0
   
@@ -16,9 +17,10 @@ def apply_coupons(cart, coupons)
     item_cart.each do |element|
       apply_coup_array << item_cart[i]
       i += 1
-      return apply_coup_array
+    end
+    return apply_coup_array
   else
-  end   
+  end 
   
   #outer loop (goes through the coupons)
   coupons.each do |coup_item|
