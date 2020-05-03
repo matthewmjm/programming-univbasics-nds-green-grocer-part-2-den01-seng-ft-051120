@@ -93,18 +93,18 @@ def checkout(cart, coupons)
   
   #calc of total cart with discounts
   i = 0
+  subtotal = 0
   total = 0
   while i < new_cart.length
-    total += (new_cart[i][:count] * new_cart[i][:price])
+    subtotal += (new_cart[i][:count] * new_cart[i][:price])
     i += 1
   end
   
   # check for 10% discount
-  if total > 100
-    total += (total * -0.9)
-    binding.pry
+  if subtotal > 100
+    total = subtotal * 0.9
     else
-      total = total
+      total = subtotal
   end  
   return total
 end
