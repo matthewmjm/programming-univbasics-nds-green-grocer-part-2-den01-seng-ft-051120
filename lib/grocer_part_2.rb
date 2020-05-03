@@ -74,12 +74,12 @@ def apply_clearance(cart)
   inx = 0
   while inx < cart.length
     if cart[inx][:clearance] == true
-      cart[inx][:price] = (cart[inx][:price] * .8).round(2)
-      ind += 1
+      cart[inx][:price] = (cart[inx][:price] * (0.8)).round(2)
+      inx += 1
     else 
-      ind += 1
+      inx += 1
     end
-    binding.pry
+  end
   return cart
 end
 
