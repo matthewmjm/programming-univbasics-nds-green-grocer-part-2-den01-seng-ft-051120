@@ -11,7 +11,7 @@ def apply_coupons(cart, coupons)
   i = 0
   inx = 0
   inx3 = 0
-  binding.pry
+
   
   #check for no coupons
   if coupons == []
