@@ -71,7 +71,10 @@ end
 
 
 def apply_clearance(cart)
-  binding.pry
+  ind = 0
+  while ind < cart.length
+    ind += 1
+  end
 end
 
 def checkout(cart, coupons)
