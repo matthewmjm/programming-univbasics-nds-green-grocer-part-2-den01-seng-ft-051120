@@ -95,7 +95,6 @@ end
 
 
 
-
 #def checkout(cart, coupons)
   # Consult README for inputs and outputs
   #
