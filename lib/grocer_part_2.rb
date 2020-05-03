@@ -12,10 +12,13 @@ def apply_coupons(cart, coupons)
   inx3 = 0
   
   #check for no coupons
-  #if coupons == [] 
-    
-  #else
-  #end   
+  if coupons == []
+    item_cart.each do |element|
+      apply_coup_array << item_cart[i]
+      i += 1
+      return apply_coup_array
+  else
+  end   
   
   #outer loop (goes through the coupons)
   coupons.each do |coup_item|
