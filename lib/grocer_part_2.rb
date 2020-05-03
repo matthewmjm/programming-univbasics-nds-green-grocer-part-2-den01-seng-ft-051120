@@ -79,6 +79,7 @@ def apply_clearance(cart)
     else 
       ind += 1
     end
+    binding.pry
   return cart
 end
 
