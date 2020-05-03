@@ -7,8 +7,7 @@ def apply_coupons(cart, coupons)
   item_cart = []
   with_coup = {}
   #item_cart = cart
-  #item_cart = consolidate_cart(cart)
-  consolidated_cart(cart) = item_cart
+  item_cart = consolidate_cart(cart)
   i = 0
   inx = 0
   inx3 = 0
