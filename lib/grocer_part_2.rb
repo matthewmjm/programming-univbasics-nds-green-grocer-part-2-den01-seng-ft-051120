@@ -10,6 +10,12 @@ def apply_coupons(cart, coupons)
   inx = 0
   inx3 = 0
   
+  #check for no coupons
+  if coupons == [] 
+    
+  else
+  end   
+  
   #outer loop (goes through the coupons)
   coupons.each do |coup_item|
       #inner-loop (goes through the cart)
